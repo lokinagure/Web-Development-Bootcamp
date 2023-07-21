@@ -1,0 +1,32 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+
+/*1 Task: all p's color red. */
+p{
+  color: red;
+}
+
+/* 2 Task: all elements with a class of "note" to "font-size: 20px. */
+.note{
+  font-size: 20px;
+}
+/* 3 Task: element with an id of "id-selector-demo" to "color: green. */
+#id-selector-demo{
+  color: green;
+}
+/* 4 Task: for the li elements that have the "value" attribute 
+set to "4" to have "color: blue. */
+li[value = "4"]{
+  color: blue;
+}
+/* 5 Task: Set all elements to have "text-align: center. */
+*{
+  text-align: center;
+}
+
+
